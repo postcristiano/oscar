@@ -70,7 +70,7 @@ def publish_to_kafka(bootstrap_servers, topic_name, data):
 
     for json_data in data:
         producer.send(topic_name, value=json.dumps(json_data).encode('utf-8'))
-        time.sleep(0.1)  # Add a small delay to control the speed of publishing
+        time.sleep(0.1)
 
     producer.flush()
     producer.close()
