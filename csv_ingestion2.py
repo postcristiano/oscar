@@ -44,3 +44,9 @@ if __name__ == "__main__":
 
     # Publish the JSON data to Kafka
     publish_to_kafka(bootstrap_servers, kafka_topic_name, data)
+
+
+
+# https://aiven.io/developer/create-your-own-data-stream-for-kafka-with-python-and-faker
+
+
