@@ -1,0 +1,48 @@
+{
+	"DataUnit": {
+		"ifc.Person.ageGroup":"",
+		"ifc.Person.birthDate":"",
+		"ifc.Person.birthPlace":"",
+		"ifc.Person.civilName":"",
+		"ifc.Person.cpf":"",
+		"ifc.Person.deathDate":"",
+		"ifc.Person.deputyId":"",
+		"ifc.Person.electoralCondition":"",
+		"ifc.Person.email":"",
+		"ifc.Person.finalLegislatureCode":"",
+		"ifc.Person.finalLegislatureElectionYear":"",
+		"ifc.Person.finalLegislatureEnd":"",
+		"ifc.Person.finalLegislatureStart":"",
+		"ifc.Person.gender":"",
+		"ifc.Person.initialLegislatureCode":"",
+		"ifc.Person.initialLegislatureElectionYear":"",
+		"ifc.Person.initialLegislatureEnd":"",
+		"ifc.Person.initialLegislatureStart":"",
+		"ifc.Person.lastStatusDate":"",
+		"ifc.Person.maskID":"",
+		"ifc.Person.name":"",
+		"ifc.Person.party":"",
+		"ifc.Person.situation":"",
+		"ifc.Person.socialNetwork":"",
+		"ifc.Person.state":"",
+		"ifc_core_type":"DataUnit",
+		"ifc_core_permission_dataSourceID":"Chamber_of_Deputies", /*Datasource*/
+		"ifc_core_parent_type":"Person", /*Nome da Entidade*/
+		"ifc_core_objectmodel":"entity", /*Tipo da entidade: property, entity or relation
+		"ifc_core_active": true,
+		"ifc_core_permission_classification": 1,
+		"ifc_core_cms_creatingUserID":"External",
+		"ifc_core_cms_updatingUserID":"External",
+		"ifc_core_permission_investigationID":"any",
+		"ifc_core_category":"Entities",
+		"ifc_core_id_original":"141405-Chamber_of_Deputies-front", /* Concatenar todos os IDs do registro com"-" entre eles +"-" + DataSourceId */
+		"ifc_core_parentID_original":"Person-141405" /* Concatenar o EntityParentType +"-" + todos os IDs do registro com"-" entre eles*/
+	},
+	"identifiers": [
+		{
+			"identifierType":"deputy ID",
+			"value":"141405",
+			"isUnique": true
+		}
+	]
+}
